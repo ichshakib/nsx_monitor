@@ -167,3 +167,28 @@ hr.retro-hr {
   color: #404040;
   margin-top: 10px;
 }
+
+/* Code & OS Highlight */
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  background-color: #efefef;
+  padding: 2px 5px;
+  border: 1px solid #b8b8b8;
+  display: inline-block;
+  word-break: break-all;
+}
+
+tr.highlight-os {
+  background-color: #eaf1fa !important;
+}
+
+.os-badge {
+  font-size: 10px;
+  background-color: #000080;
+  color: #ffffff;
+  padding: 1px 4px;
+  margin-left: 4px;
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  font-weight: normal;
+}

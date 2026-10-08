@@ -8,6 +8,12 @@
     <a href="https://github.com/ichshakib/nsx_monitor/releases"><img src="https://img.shields.io/github/v/release/ichshakib/nsx_monitor?include_prereleases&label=Release&logo=electron" alt="Latest Release" /></a>
     <a href="./LICENSE"><img src="https://img.shields.io/github/license/ichshakib/nsx_monitor?color=blue" alt="License" /></a>
   </p>
+
+  <p>
+    <a href="https://github.com/ichshakib/nsx_monitor/releases/download/v0.1.12/NSX-Monitor-Windows-0.1.12-Setup.exe"><img src="https://img.shields.io/badge/Windows-Download%20Setup%20.exe-0078D6?logo=windows&logoColor=white" alt="Download Windows" /></a>
+    <a href="https://github.com/ichshakib/nsx_monitor/releases/download/v0.1.12/NSX-Monitor-Mac-0.1.12-Installer.dmg"><img src="https://img.shields.io/badge/macOS-Download%20.dmg-000000?logo=apple&logoColor=white" alt="Download macOS" /></a>
+    <a href="https://github.com/ichshakib/nsx_monitor/releases/download/v0.1.12/NSX-Monitor-Linux-0.1.12.AppImage"><img src="https://img.shields.io/badge/Linux-Download%20.AppImage-FCC624?logo=linux&logoColor=black" alt="Download Linux" /></a>
+  </p>
 </div>
 
 ---
@@ -24,6 +30,20 @@
 - ⚠️ **Smart Bandwidth Alerts:** Configurable download/upload warning thresholds with system alert triggers.
 - 🎛️ **Interface Management:** Automatic detection and switching between network interfaces (Ethernet, Wi-Fi, VPNs).
 - 💾 **Local Data Persistence:** Lightweight embedded JSON database for secure, local telemetry persistence.
+
+---
+
+## 📥 Downloads (v0.1.12)
+
+Download the official standalone desktop build for your platform:
+
+| Platform | Architecture | Installer Package | Direct Download Link |
+| :--- | :--- | :--- | :--- |
+|  **Windows** | x64 (Windows 10/11) | `NSX-Monitor-Windows-0.1.12-Setup.exe` | [⬇️ Download .EXE](https://github.com/ichshakib/nsx_monitor/releases/download/v0.1.12/NSX-Monitor-Windows-0.1.12-Setup.exe) |
+|  **macOS** | Universal (Intel & Apple Silicon) | `NSX-Monitor-Mac-0.1.12-Installer.dmg` | [⬇️ Download .DMG](https://github.com/ichshakib/nsx_monitor/releases/download/v0.1.12/NSX-Monitor-Mac-0.1.12-Installer.dmg) |
+|  **Linux** | x86_64 AppImage | `NSX-Monitor-Linux-0.1.12.AppImage` | [⬇️ Download .AppImage](https://github.com/ichshakib/nsx_monitor/releases/download/v0.1.12/NSX-Monitor-Linux-0.1.12.AppImage) |
+
+> 💡 **Looking for previous versions or checksums?** Visit the [GitHub Releases](https://github.com/ichshakib/nsx_monitor/releases) page.
 
 ---
 
