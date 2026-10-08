@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>NSX Monitor - High-Precision Network Bandwidth Utility (v0.1.12)</title>
+  <meta name="title" content="NSX Monitor - High-Precision Network Bandwidth Utility">
+  <meta name="description" content="NSX Monitor is a lightweight, high-precision desktop network bandwidth monitoring utility for Windows, macOS, and Linux with real-time polling, sub-second byte tracking, and desktop overlay widget.">
+  <meta name="keywords" content="NSX Monitor, network monitor, bandwidth tracker, network bandwidth utility, real-time bandwidth, desktop overlay widget, open source network monitor, sub-second byte tracking">
+  <meta name="author" content="Shakib Khan">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://github.com/ichshakib/nsx_monitor">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/ichshakib/nsx_monitor">
+  <meta property="og:title" content="NSX Monitor - High-Precision Network Bandwidth Utility">
+  <meta property="og:description" content="Lightweight desktop network bandwidth monitoring utility for Windows, macOS, and Linux with real-time polling and overlay widget.">
+  <meta property="og:image" content="assets/images/app_dark_demo.png">
+  <meta property="og:image:alt" content="NSX Monitor Desktop Application Preview">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://github.com/ichshakib/nsx_monitor">
+  <meta name="twitter:title" content="NSX Monitor - High-Precision Network Bandwidth Utility">
+  <meta name="twitter:description" content="Lightweight desktop network bandwidth monitoring utility for Windows, macOS, and Linux with real-time polling and overlay widget.">
+  <meta name="twitter:image" content="assets/images/app_dark_demo.png">
+
+  <!-- Favicons & Mobile Web App -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon_io/favicon.ico">
+  <link rel="manifest" href="assets/images/favicon_io/site.webmanifest">
+  <meta name="theme-color" content="#d4d0c8">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="page-container">
+
+  <!-- Header -->
+  <div class="page-header">
+    <img src="assets/images/logo.svg" width="48" height="48" alt="NSX Monitor Logo"><br>
+    <div class="page-title">NSX MONITOR</div>
+    <div class="page-subtitle">High-Precision Desktop Network Bandwidth Utility</div>
+    <div class="page-meta">Version 0.1.12 &bull; Open Source Freeware</div>
+  </div>
+
+  <hr class="retro-hr">
+
+  <!-- Navigation Bar -->
+  <div class="retro-nav">
+    [ <a href="#about">About</a> ] &bull;
+    [ <a href="#features">Features</a> ] &bull;
+    [ <a href="#specs">System Specs</a> ] &bull;
+    [ <a href="#download"><b>Download</b></a> ] &bull;
+    [ <a href="https://github.com/ichshakib/nsx_monitor" target="_blank">GitHub Repository</a> ] &bull;
+    [ <a href="./CONTRIBUTING.md">Contributing</a> ] &bull;
+    [ <a href="./LICENSE">License</a> ]
+  </div>
+
+  <!-- Product Overview -->
+  <fieldset id="about">
+    <legend>Product Overview</legend>
+    <p>
+      <b>NSX Monitor</b> is a lightweight network monitoring utility designed for developers, network engineers, and system power users. It provides sub-second byte tracking (Rx/Tx), interface throughput statistics, latency tracking, and an always-on-top desktop overlay widget.
+    </p>
+    <p>
+      Built for speed and low resource usage, all bandwidth metrics remain 100% private and stored locally on your machine with zero remote tracking.
+    </p>
+  </fieldset>
+
+  <!-- Key Features Table -->
+  <fieldset id="features">
+    <legend>Core Features</legend>
+
+    <table class="retro-table" border="1" cellpadding="4" cellspacing="0">
+      <thead>
+        <tr>
+          <th width="30%">Feature</th>
+          <th width="70%">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Real-Time Polling</b></td>
+          <td>Sub-second tracking of incoming and outgoing bandwidth across all connected network adapters.</td>
+        </tr>
+        <tr>
+          <td><b>Desktop Overlay Widget</b></td>
+          <td>Always-on-top compact mini-window for gaming, streaming, and programming.</td>
+        </tr>
+        <tr>
+          <td><b>Historical Usage Logs</b></td>
+          <td>Query past traffic consumption over 1 hour, 24 hours, 7 days, and 30 days.</td>
+        </tr>
+        <tr>
+          <td><b>Bandwidth Alerts</b></td>
+          <td>Set custom threshold limits with system notifications when bandwidth spikes.</td>
+        </tr>
+        <tr>
+          <td><b>Multi-Adapter Detection</b></td>
+          <td>Automatically detect Ethernet, Wi-Fi, and virtual VPN adapters.</td>
+        </tr>
+        <tr>
+          <td><b>100% Local Privacy</b></td>
+          <td>No telemetry sent to remote servers. All metric logs stay strictly on your local PC.</td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+
+  <!-- System Specifications Table -->
+  <fieldset id="specs">
+    <legend>System Requirements</legend>
+    <table class="retro-table" border="1" cellpadding="4" cellspacing="0">
+      <tbody>
+        <tr>
+          <td width="35%"><b>Supported Platforms</b></td>
+          <td>Windows 10 / 11 (64-bit), macOS 12+, Linux (Ubuntu, Debian, Fedora)</td>
+        </tr>
+        <tr>
+          <td><b>Memory Footprint</b></td>
+          <td>Approximately 12MB - 15MB RAM</td>
+        </tr>
+        <tr>
+          <td><b>Network Protocols</b></td>
+          <td>IPv4 / IPv6, TCP/IP Stack, UDP Socket Telemetry</td>
+        </tr>
+        <tr>
+          <td><b>License</b></td>
+          <td>MIT License (100% Free &amp; Open Source Software)</td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+
+  <!-- Download Section -->
+  <fieldset id="download">
+    <legend>Download NSX Monitor (v0.1.12)</legend>
+    <center>
+      <p>Select the installer for your operating system:</p>
+
+      <table class="retro-table" border="1" cellpadding="6" cellspacing="0" style="max-width: 600px;">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Package</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Windows</b> (10/11 x64)</td>
+            <td>nsx-monitor-setup.exe</td>
+            <td><a href="https://github.com/ichshakib/nsx_monitor/releases" target="_blank" class="retro-btn">Download .EXE</a></td>
+          </tr>
+          <tr>
+            <td><b>macOS</b> (Intel &amp; Apple Silicon)</td>
+            <td>nsx-monitor-installer.dmg</td>
+            <td><a href="https://github.com/ichshakib/nsx_monitor/releases" target="_blank" class="retro-btn">Download .DMG</a></td>
+          </tr>
+          <tr>
+            <td><b>Linux</b> (All distros)</td>
+            <td>nsx-monitor.AppImage</td>
+            <td><a href="https://github.com/ichshakib/nsx_monitor/releases" target="_blank" class="retro-btn">Download .AppImage</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+      <a href="https://github.com/ichshakib/nsx_monitor/releases" target="_blank" class="retro-btn retro-btn-large">
+        View All Releases &amp; Checksums on GitHub
+      </a>
+    </center>
+  </fieldset>
+
+  <hr class="retro-hr">
+
+  <!-- Footer -->
+  <div class="page-footer">
+    <p>
+      &copy; 2026 NSX Monitor Project. Maintained by <a href="https://github.com/ichshakib" target="_blank">Shakib Khan</a>.<br>
+      Released under the <a href="./LICENSE">MIT License</a>.
+    </p>
+  </div>
+
+</div>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
