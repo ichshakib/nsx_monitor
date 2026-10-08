@@ -1,0 +1,51 @@
+// @see - https://www.electron.build/configuration/configuration
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.nsx.monitor",
+  "asar": true,
+  "productName": "NSX Monitor",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": [
+    "dist",
+    "dist-electron"
+  ],
+  "mac": {
+    "target": [
+      "dmg"
+    ],
+    "artifactName": "${productName}-Mac-${version}-Installer.${ext}"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "icon": "public/icons/win/icon.ico",
+    "artifactName": "${productName}-Windows-${version}-Setup.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": false
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ],
+    "category": "Utility",
+    "artifactName": "${productName}-Linux-${version}.${ext}"
+  },
+  "publish": {
+    "provider": "github",
+    "owner": "ichshakib",
+    "repo": "nsx_monitor",
+    "releaseType": "release"
+  }
+}
